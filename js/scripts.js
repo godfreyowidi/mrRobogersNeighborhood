@@ -51,5 +51,6 @@ function numbersMorethan9(number) {
     return two;
   } else if (i.number === 1) {
     return one;
-  });
-});
+  }
+}
+
