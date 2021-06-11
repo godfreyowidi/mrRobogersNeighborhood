@@ -48,12 +48,6 @@ Expect output: ""0", "Beep", "Boop", "Won't you be my neighbor?", 4, 5, 6, 7, 8,
 ```
 
 ```
-Test: "It should return 0 if the input is a string or special characters only"
-Code: alertNeighor("hey!")
-Expect output: 0;
-```
-
-```
 Test: "It should return an operator number match regardless of punctuation."
 Code: alertNeighor("#2")
 Expect output: "Boop";

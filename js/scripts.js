@@ -9,19 +9,19 @@ function alertNeighbor() {
 
   // numbers less than 5
   function numbersLessThan5(number) {
-    if (number === 0) {
+    if (number == 0) {
       return zero;
     }
-    else if (number === 1) {
+    else if (number == 1) {
       return one;
     }
-    else if (number === 2) {
+    else if (number == 2) {
       return two;
     }
-    else if (number === 3) {
+    else if (number == 3) {
       return three;
     }
-    else if (number === 4) {
+    else if (number == 4) {
       return four;
     }
     else {
@@ -31,19 +31,19 @@ function alertNeighbor() {
     // numbers from 5 - 9
     function numbers5To9(number) {
       let fiveToNine = [];
-      if (number === 5) {
+      if (number == 5) {
         for (let i = 5; i != 6; ++i) return four + fiveToNine.push(i)
       }
-      else if (number === 6) {
+      else if (number == 6) {
         for (let i = 5; i != 7; ++i) return four + fiveToNine.push(i)
       }
-      else if (number === 7) {
+      else if (number == 7) {
         for (let i = 5; i != 8; ++i) return four + fiveToNine.push(i)
       }
-      else if (number === 8) {
+      else if (number == 8) {
         for (let i = 5; i != 9; ++i) return four + fiveToNine.push(i)
       }
-      else if (number === 9) {
+      else if (number == 9) {
         for (let i = 5; i != 10; ++i) return four + fiveToNine.push(i)
       }
     }
@@ -51,13 +51,13 @@ function alertNeighbor() {
     // numbers more than 9 (more than 1 character number)
     function numbersMorethan9(number) {
       for (let i = 0; i <= i.length - 1; i++);
-      if (i.number === 3) {
+      if (i.number == 3) {
         return three;
       }
-      else if (i.number === 2) {
+      else if (i.number == 2) {
         return two;
       }
-      else if (i.number === 1) {
+      else if (i.number == 1) {
         return one;
       }
     }
