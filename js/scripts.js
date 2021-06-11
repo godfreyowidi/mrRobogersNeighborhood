@@ -5,27 +5,24 @@ const two = "Boop";
 const three = "won't you be my neighbor?";
 const four = "'0', 'Beep', 'Boop', 'won't you be my neighbor', 4";
 
+// numbers less than 5
 function numbersLessThan5(number) {
   if (number === 0) { 
   return zero;
-} else {
-  if (number === 1) {
+} else if (number === 1) {
   return one;
-} else {
-  if (number === 2) { 
+} else if (number === 2) {
     return two;
-} else {
-  if (number === 3) { 
+} else if (number === 3) {
     return three;
-} else {
-  if (number === 4) {
+} else if (number === 4) {
+    return four;
 } else {
   return 0;
 }
 
-
-
-function numbers4To9(number) {
+// numbers from 5 - 9
+function numbers5To9(number) {
   let fiveToNine = [];
   if (number === 5) {
     for (let i = 5; i != 6; ++i) 
@@ -45,10 +42,14 @@ function numbers4To9(number) {
   }
 }
 
+// numbers more than 9 (more than 1 character number)
 function numbersMorethan9(number) {
-  for (let i=0; i <= number.length; i++);
-    if (i === 3);{
-    return true;
-  } else {
-    if (i === )
-  }
+  for (let i=0; i <= i.length-1; i++);
+    if (i.number === 3) {
+    return three;
+  } else if (i.number === 2) {
+    return two;
+  } else if (i.number === 1) {
+    return one;
+  });
+});

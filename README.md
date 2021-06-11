@@ -18,13 +18,13 @@ Expect output: "Boop";
 ```
 
 ```
-Test: "It should return a string "Won't you be my neighbor?" if the number 3 is inputted"
+Test: "It should return a string "Won't you be my neighbor?" if the integer number 3 is inputted"
 Code: alertNeighor(3)
 Expect output: "Won't you be my neighbor?";
 ```
 
 ```
-Test: "It should return a string "Won't you be my neighbor?" if the number inputted contain operator number 3"
+Test: "It should return a string "Won't you be my neighbor?" if the number inputted contain number 3"
 Code: alertNeighor(530)
 Expect output: "Won't you be my neighbor?";
 ```
