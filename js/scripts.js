@@ -1,6 +1,6 @@
 function alertNeighbor() {
 
-  // global vaiables
+  // vaiables
   const zero = "0";
   const one = "Beep";
   const two = "Boop";
@@ -8,7 +8,6 @@ function alertNeighbor() {
   const four = "'0', 'Beep', 'Boop', 'won't you be my neighbor', 4";
 
   // numbers less than 5
-  function numbersLessThan5(number) {
     if (number == 0) {
       return zero;
     }
@@ -24,51 +23,41 @@ function alertNeighbor() {
     else if (number == 4) {
       return four;
     }
-    else {
-      return 0;
-    }
-  }
+  
     // numbers from 5 - 9
-    function numbers5To9(number) {
-      let fiveToNine = [];
-      if (number == 5) {
-        for (let i = 5; i != 6; ++i) return four + fiveToNine.push(i)
-      }
-      else if (number == 6) {
-        for (let i = 5; i != 7; ++i) return four + fiveToNine.push(i)
-      }
-      else if (number == 7) {
-        for (let i = 5; i != 8; ++i) return four + fiveToNine.push(i)
-      }
-      else if (number == 8) {
-        for (let i = 5; i != 9; ++i) return four + fiveToNine.push(i)
-      }
-      else if (number == 9) {
-        for (let i = 5; i != 10; ++i) return four + fiveToNine.push(i)
-      }
-    }
+    let result = [];
+    for (let i = 5; i != 6; ++i)
+    return(four + result.push(i));
+    for (let i = 5; i != 7; ++i)
+    return(four + result.push(i));
+    for (let i = 5; i != 8; ++i)
+    return(four + result.push(i));
+    for (let i = 5; i != 9; ++i)
+    return(four + result.push(i));
+    for (let i = 5; i != 10; ++i)
+    return(four + result.push(i));
 
     // numbers more than 9 (more than 1 character number)
-    function numbersMorethan9(number) {
-      for (let i = 0; i <= i.length - 1; i++);
-      if (i.number == 3) {
-        return three;
-      }
-      else if (i.number == 2) {
-        return two;
-      }
-      else if (i.number == 1) {
-        return one;
-      }
+    numberMoreThan9 = 0;
+    for (let i = 0; i < numberMoreThan9.length; i++);
+    if (numberMoreThan9[i] == 3) {
+      return three;
     }
-
-    // UI
+    else if (numberMoreThan9[i] == 2 && numberMoreThan9[i] !== 3) {
+      return two;
+    }
+    else if (numberMoreThan9[i] == 1 && numberMoreThan9[i] !== 2 && numberMoreThan9[i] !== 3) {
+      return one;
+    }
+    // UI                
     $(document).ready(function () {
-      $("form#numberAlert").submit(function (event) {
+      $("form#users").submit(function (event) {
         event.preventDefault();
         const number = $("#integer").val();
         const numbersInput = alertNeighbor(number);
         $("#alert").html(numbersInput);
-      });
-    });
-  }
+      })
+
+    })
+  })  
+})
