@@ -1,4 +1,3 @@
-function alertNeighbor() {
 
   // vaiables
   const zero = "0";
@@ -8,6 +7,7 @@ function alertNeighbor() {
   const four = "'0', 'Beep', 'Boop', 'won't you be my neighbor', 4";
 
   // numbers less than 5
+  function numbersLessThan5(number) {
     if (number == 0) {
       return zero;
     }
@@ -25,6 +25,7 @@ function alertNeighbor() {
     }
   
     // numbers from 5 - 9
+  function numberFrom5To9(number) {
     let result = [];
     for (let i = 5; i != 6; ++i)
     return(four + result.push(i));
@@ -50,14 +51,14 @@ function alertNeighbor() {
       return one;
     }
     // UI                
-    $(document).ready(function () {
-      $("form#users").submit(function (event) {
-        event.preventDefault();
-        const number = $("#integer").val();
-        const numbersInput = alertNeighbor(number);
-        $("#alert").html(numbersInput);
-      })
+$(document).ready(function () {
+  $("form#users").submit(function (event) {
+    event.preventDefault();
+    const number = $("#integer").val();
+    const numbersInput = alertNeighbor(number);
+    $("#alert").html(numbersInput);
+  })
 
     })
-  })  
-})
+  } 
+
