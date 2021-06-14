@@ -27,29 +27,31 @@
     // numbers from 5 - 9
   function numberFrom5To9(number) {
     let result = [];
-    for (let i = 5; i != 6; ++i)
-    return(four + result.push(i));
-    for (let i = 5; i != 7; ++i)
-    return(four + result.push(i));
-    for (let i = 5; i != 8; ++i)
-    return(four + result.push(i));
-    for (let i = 5; i != 9; ++i)
-    return(four + result.push(i));
-    for (let i = 5; i != 10; ++i)
-    return(four + result.push(i));
-
+    for (let i = 5; i < number.length; ++i)
+    if (number.includes(5)) {
+      return(four + result.push[i]);
+    } else if (number.icludes(6)) {
+      return(four + result.push[i]);
+    } else if (number.includes(7)) {
+      return(four + result.push[i]);
+    } else if (number.icludes(8)) {
+      return(four + result.push[i]);
+    } else if (number.includes(9));
+      return(four + result.push[i]);
+  }
     // numbers more than 9 (more than 1 character number)
-    numberMoreThan9 = 0;
-    for (let i = 0; i < numberMoreThan9.length; i++);
-    if (numberMoreThan9[i] == 3) {
+  function numberMoreThan9(number) {
+    for (let i = 0; i < number.length; i++);
+    if (number[i] == 3) {
       return three;
     }
-    else if (numberMoreThan9[i] == 2 && numberMoreThan9[i] !== 3) {
+    else if (number[i] == 2 && number[i] !== 3) {
       return two;
     }
-    else if (numberMoreThan9[i] == 1 && numberMoreThan9[i] !== 2 && numberMoreThan9[i] !== 3) {
+    else if (number[i] == 1 && number[i] !== 2 && number[i] !== 3) {
       return one;
     }
+  }
     // UI                
 $(document).ready(function () {
   $("form#users").submit(function (event) {
@@ -57,8 +59,7 @@ $(document).ready(function () {
     const number = $("#integer").val();
     const numbersInput = alertNeighbor(number);
     $("#alert").html(numbersInput);
-  })
-
-    })
-  } 
+  });
+});
+ 
 
