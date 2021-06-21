@@ -9,3 +9,30 @@ function beepBoop(number) {
     numberList.push(i.toString());
   };
 
+  let mrRobogersNeigboorhood = numbers.map(function(numberEntry) {
+    if (numberEntry.includes("3")) {
+      return numberEntry = neighbor;
+    } else if (numberEntry.includes("2")) {
+      return numberEntry = boop;
+    } else if (numberEntry.includes("1")) {
+      return numberEntry = beep;
+    } else {
+      return numberEntry;
+    };
+  });
+  return mrRobogersNeigboorhood;
+};
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
