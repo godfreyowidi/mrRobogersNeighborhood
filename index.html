@@ -11,11 +11,15 @@
   <h1 id="header">Mr Roboger's Neighboorhood</h1><br >
   <div class="formField">
     <h3>Enter number to know your neighbors secret</h3><br >
-    <form action="test" method="post" id="users">
-        <input type="integer" placeholder="Enter Number Here" name="username" id="Username">
-        <input type="submit" class="btn btn-primary" value="Submit">
+    <form id="users">
+      <div class="form-group">
+        <label for="input">Number Goes Here</label>
+        <input id="input" type="text">
+      </div>
+      <button type="submit" class="btn">SUBMIT</button>
+    </form>
     </form><br>
-    <p>Message: <span id="alert"></span></p>
+    <p><strong>Message:</strong> <span id="alert"></span></p>
   </div>
 </body>
 </html>
