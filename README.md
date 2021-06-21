@@ -17,59 +17,27 @@
 
 ## Tests
 
-### Describe numberLessThan5()
+### Describe beepBoop()
 ```
 Test: "It should return an array with a 0 if the number 0 is inputted"
-Code: alertNeighor(0)
-Expect output: (alertNeighbor(0).toEqual([0]);
+Code: beepBoop(0)
+Expect output: (beepBoop(0).toEqual([0]);
 ```
 ```
-Test: "It should return a string "Beep" if the number 1 is inputted"
-Code: alertNeighor(1)
+Test: "It should return a string "Beep" if the number 1 is inputted or if the number !-- include(2) $$ !== include(3)"
+Code: beepBoop(1)
 Expect output: "Beep";
 ```
 ```
-Test: "It should return a string "Boop" if the number 2 is inputted"
-Code: alertNeighor(2)
+Test: "It should return a string "Boop" if the number 2 is inputted or if the numbers !== include(3)"
+Code: beepBoop(2)
 Expect output: "Boop";
 ```
 
 ```
-Test: "It should return a string "Won't you be my neighbor?" if the integer number 3 is inputted"
-Code: alertNeighor(3)
+Test: "It should return a string "Won't you be my neighbor?" if the integer number 3 is inputted or the numbers include(3)"
+Code: beepBoop(3)
 Expect output: "Won't you be my neighbor?";
-```
-
-### Describe numberMoreThan9()
-```
-Test: "It should return a string "Won't you be my neighbor?" if the number inputted contain number 3"
-Code: alertNeighor(530)
-Expect output: "Won't you be my neighbor?";
-```
-
-```
-Test: "It should return a string "Boop" if the number with the highest value among the input is 2"
-Code: alertNeighor(1102)
-Expect output: "Boop";
-```
-
-```
-Test: "It should return a string "Beep" if the number with the highest value among the input is 1"
-Code: alertNeighor(1000)
-Expect output: "Beep";
-```
-
-### Describe numbersFrom5To9()
-```
-Test: "It should return a string ("0", "Beep", "Boop", "Won't you be my neighbor?", 4, 4+1, 4+2..) if the number input is either 4, 5, 6, 7, 8, 9"
-Code: alertNeighor(9)
-Expect output: ""0", "Beep", "Boop", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9";
-```
-
-```
-Test: "It should return an operator number match regardless of punctuation."
-Code: alertNeighor("#2")
-Expect output: "Boop";
 ```
 
 ## Setup Requirements
@@ -82,9 +50,9 @@ Expect output: "Boop";
 
 1. Clone the project repository from _[Github](https://github.com/godfreyowidi/mrRobogersNeighborhood)_
 
-2. Identify the directory programmingLanguageSuggester and navigate to it using the terminal command ```cd mrRobogersNeighborhood``` 
+2. Identify the directory mrRobogersNeighborhood and navigate to it using the terminal command ```cd mrRobogersNeighborhood``` 
 
-3. While inside the working directroy (programmingLanguageSuggester), open the project on editor preferably VS code using the terminal command ```code .```
+3. While inside the working directroy (mrRobogersNeighborhood), open the project on editor preferably VS code using the terminal command ```code .```
 
 4. Identify index.html from the list of items display on the editor.
 
