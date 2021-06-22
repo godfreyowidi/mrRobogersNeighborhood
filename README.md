@@ -25,9 +25,9 @@ Expect output: [0, 1, 3, 4, 5];
 ```
 
 ```
-Test: "It should return a 0 if the number 0 and not any other number is inputted"
+Test: "It should return an array with a 0 if the number 0 and not any other number is inputted"
 Code: beepBoop(0)
-Expect output: 0;
+Expect output: (beepBoop(0).toEqual([0]);
 ```
 ```
 Test: "It should return a string "Beep" if the number 1 is inputted or if the number !-- include(2) $$ !== include(3)"
