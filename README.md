@@ -19,6 +19,12 @@
 
 ### Describe beepBoop()
 ```
+Test: "It should return an array to the user that goes from 0 to the users inputted number"
+Code: beepBoop(5)
+Expect output: [0, 1, 3, 4, 5];
+```
+
+```
 Test: "It should return a 0 if the number 0 and not any other number is inputted"
 Code: beepBoop(0)
 Expect output: 0;
