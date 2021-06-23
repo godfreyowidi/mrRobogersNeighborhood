@@ -17,7 +17,7 @@
 
 ## Tests
 
-### Describe beepBoop()
+### Describe: beepBoop()
 ```
 Test: "It should return an array to the user that goes from 0 to the users inputted number"
 Code: beepBoop(5)
@@ -31,19 +31,19 @@ Expect output: (beepBoop(0).toEqual([0]);
 ```
 
 ```
-Test: "It should replace 1 with string "Beep" in the array of number to user input?
+Test: "It should replace 1 with string "Beep" in the array of numbers to user inputted number"
 Code: beepBoop(5)
 Expect output:[0,'Beep', 2, 3, 4, 5];
 ```
 
 ```
-Test: "It should replace 2 with string "Boop" in the array of numbers to user inputtted number?
+Test: "It should replace 2 with string "Boop" in the array of numbers to user inputtted number"
 Code: beepBoop(5)
 Expect output:[0,'Beep', 'Boop', 3, 4, 5];
 ```
 
 ```
-Test: "It should replace any number with a 3 with string "Won't you be my neighbor"?" in the array of number to user input?
+Test: "It should replace any number with a 3 with string "Won't you be my neighbor"?" in the array of number to user inputted number"
 Code: beepBoop(23)
 Expect output:[0,'Beep', 'Boop', 'Won't you be my neighbor', 4, 5...9, 'Beep', 'Beep',...'Beep', 'Won't you be my neighbor'..];
 ```
