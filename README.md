@@ -30,7 +30,6 @@ Code: beepBoop(0)
 Expect output: (beepBoop(0).toEqual([0]);
 ```
 
-
 ## Setup Requirements
 
 * _Computer(Mac/PC)_
