@@ -29,22 +29,7 @@ Test: "It should return an array with a 0 if the number 0 and not any other numb
 Code: beepBoop(0)
 Expect output: (beepBoop(0).toEqual([0]);
 ```
-```
-Test: "It should return a string "Beep" if the number 1 is inputted or if the number !-- include(2) $$ !== include(3)"
-Code: beepBoop(1)
-Expect output: "Beep";
-```
-```
-Test: "It should return a string "Boop" if the number 2 is inputted or if the numbers !== include(3)"
-Code: beepBoop(2)
-Expect output: "Boop";
-```
 
-```
-Test: "It should return a string "Won't you be my neighbor?" if the integer number 3 is inputted or the numbers include(3)"
-Code: beepBoop(3)
-Expect output: "Won't you be my neighbor?";
-```
 
 ## Setup Requirements
 
