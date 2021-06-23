@@ -30,6 +30,13 @@ Code: beepBoop(0)
 Expect output: (beepBoop(0).toEqual([0]);
 ```
 
+```
+Test: "It should replace 1 with string "Beep" in the array of number to user input?
+Code: beepBoop(5)
+Expect output:[0,'Beep', 2, 3, 4, 5];
+```
+
+
 ## Setup Requirements
 
 * _Computer(Mac/PC)_
