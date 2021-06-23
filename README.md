@@ -36,6 +36,12 @@ Code: beepBoop(5)
 Expect output:[0,'Beep', 2, 3, 4, 5];
 ```
 
+```
+Test: "It should replace 2 with string "Boop" in the array of number to user input?
+Code: beepBoop(5)
+Expect output:[0,'Beep', 'Boop', 3, 4, 5];
+```
+
 
 ## Setup Requirements
 
