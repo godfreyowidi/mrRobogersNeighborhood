@@ -37,11 +37,16 @@ Expect output:[0,'Beep', 2, 3, 4, 5];
 ```
 
 ```
-Test: "It should replace 2 with string "Boop" in the array of number to user input?
+Test: "It should replace 2 with string "Boop" in the array of numbers to user inputtted number?
 Code: beepBoop(5)
 Expect output:[0,'Beep', 'Boop', 3, 4, 5];
 ```
 
+```
+Test: "It should replace any number with a 3 with string "Won't you be my neighbor"?" in the array of number to user input?
+Code: beepBoop(23)
+Expect output:[0,'Beep', 'Boop', 'Won't you be my neighbor', 4, 5...9, 'Beep', 'Beep',...'Beep', 'Won't you be my neighbor'..];
+```
 
 ## Setup Requirements
 
