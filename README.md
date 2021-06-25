@@ -31,13 +31,13 @@ Expect output: (beepBoop(0).toEqual([0]);
 ```
 
 ```
-Test: "It should replace 1 with string "Beep" in the array of numbers to user inputted number"
+Test: "It should replace any number with 1 as the higher integer value with string "Beep" in the array of numbers to user inputted number"
 Code: beepBoop(5)
 Expect output:[0,'Beep', 2, 3, 4, 5];
 ```
 
 ```
-Test: "It should replace 2 with string "Boop" in the array of numbers to user inputtted number"
+Test: "It should replace any number with 2 as the highest integer value with string "Boop" in the array of numbers to user inputtted number"
 Code: beepBoop(5)
 Expect output:[0,'Beep', 'Boop', 3, 4, 5];
 ```
